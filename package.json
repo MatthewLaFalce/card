@@ -1,0 +1,43 @@
+{
+  "name": "matthewlafalce",
+  "version": "1.0.1",
+  "description": "A personal card for Matthew LaFalce (@matthewlafalce)",
+  "main": "/bin/card.js",
+  "bin": {
+    "matthewlafalce": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatthewLaFalce/card.git"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": {
+    "name": "Matthew LaFalce",
+    "email": "mlafalce206@gmail.com",
+    "url": "https://mattlafalce.me"
+  },
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.2",
+    "standard": "^12.0.1"
+  }
+}
