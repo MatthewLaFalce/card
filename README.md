@@ -15,22 +15,6 @@ npm run build
 
 # Build and run the package
 npm run dev
-
-# Enforce javscrip code standards
-npm run standard
-```
-
-## Dependencies
-
-```bash
-# Chalk
-npm install chalk
-
-# Boxen
-npm install boxen
-
-# Standard
-npm install standard
 ```
 
 ## Inspiration
